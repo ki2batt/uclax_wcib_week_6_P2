@@ -1,0 +1,68 @@
+:root {
+  --jumbotron-padding-y: 3rem; }
+
+.modal-dialog .modal-content {
+  background-color: #6f4e37;
+  color: white;
+  /*
+  background-image: url('../images/beans.jpg');
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: 700;
+  */ }
+
+.close span {
+  color: white; }
+
+.modal-body {
+  font-weight: 700; }
+
+.signupForm {
+  border: 1px solid #cccccc !important;
+  padding: 10px; }
+
+.signupForm .btn {
+  float: right;
+  margin: 10px; }
+
+#signupButton, #signUp {
+  background-color: #3b2f2f;
+  border-color: #000000; }
+
+#fiftyCustomerModalBody img {
+  width: 100%; }
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #6f4e37; }
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2); } }
+
+.jumbotron p:last-child {
+  margin-bottom: 0; }
+
+.jumbotron-heading {
+  font-weight: 300;
+  font-size: 114px; }
+
+.jumbotron .container {
+  max-width: 40rem; }
+
+.jumbotron .container p {
+  text-transform: uppercase;
+  margin-top: 20px; }
+
+/*footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}*/
+footer p {
+  text-align: center; }
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); }
